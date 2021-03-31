@@ -1171,11 +1171,7 @@ label {
 select {
     display: block;
     font: 1rem 'Kanit', sans-serif;
-  width: 300px;
-  height: 70px;
+  width: 150px;
+  height: 30px;
 }
 
-input,
-label {
-    margin: .4rem 0;
-}
