@@ -360,15 +360,6 @@ display:none;
 }
 }
 
-
-
-
-
-
-
-
-
-
 .main{
 width:100%;
 height:100vh;
@@ -1165,4 +1156,26 @@ margin:auto;
   position:fixed;
   right:0;
   bottom:20px;
+}
+/*Calendar*/
+label {
+    display: block;
+    font: 1rem 'Archivo Black', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+/*The OPTION BOX*/
+select {
+    display: block;
+    font: 1rem 'Kanit', sans-serif;
+  width: 150px;
+  height: 30px;
+}
+
+input,
+label {
+    margin: .4rem 0;
 }
