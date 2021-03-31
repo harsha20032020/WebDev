@@ -13,7 +13,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
+// sdd
 
 
 
@@ -21,6 +21,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     document.getElementById("navbar").style.top = "0";
+
     document.getElementById("scroll-up").style.display = "block";
   } else {
     document.getElementById("navbar").style.top = "-60px";
