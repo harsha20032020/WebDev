@@ -1172,7 +1172,6 @@ label {
 select {
     display: block;
     font: 1rem 'Kanit', sans-serif;
-  width: 150px;
-  height: 30px;
+  width: 175px;
+  height: 70px;
 }
-
