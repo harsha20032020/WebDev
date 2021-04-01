@@ -132,6 +132,13 @@
   <option value="https://harsha20032020.github.io/WebDev/mumbai">Mumbai</option>
   <option value="https://harsha20032020.github.io/WebDev/chennai">Chennai</option>
   <option value="https://harsha20032020.github.io/WebDev/kolkata">Kolkata</option>
+  <script type="text/javascript">
+var urlmenu = document.getElementById( 'loc' );
+urlmenu.onchange = function() {
+      window.open(  this.options[ this.selectedIndex ].value );
+};
+</script>
+
 </select>
 <!--<h1 class="title">Enter Start Date</h1>
 <input type="date" id="start" name="trip-start"
